@@ -1,7 +1,7 @@
 def anosFumando(idadeI, idadeF):
     return abs(idadeF - idadeI)
 
-def cigarrosPorAno(ano, cigPorDia):
+def cigarrosPorAno(anos, cigPorDia):
     return (anos * 365) * cigPorDia
 
 def macosCigarro(cigsPorAno):
